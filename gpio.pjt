@@ -1,0 +1,101 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="gpio"
+ProjectDir="G:\test\DSP\DSP2812S_SourceCode\SourceCode05_GPIOBuzz\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="DSP28_Adc.c"
+Source="DSP28_CpuTimers.c"
+Source="DSP28_DefaultIsr.c"
+Source="DSP28_ECan.c"
+Source="DSP28_Ev.c"
+Source="DSP28_GlobalVariableDefs.c"
+Source="DSP28_Gpio.c"
+Source="DSP28_InitPeripherals.c"
+Source="DSP28_Mcbsp.c"
+Source="DSP28_PieCtrl.c"
+Source="DSP28_PieVect.c"
+Source="DSP28_Sci.c"
+Source="DSP28_Spi.c"
+Source="DSP28_SysCtrl.c"
+Source="DSP28_Xintf.c"
+Source="DSP28_XIntrupt.c"
+Source="ExamGpiod5.c"
+Source="rts2800n.lib"
+Source="SRAM.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"G:\test\DSP\DSP2812S_SourceCode\SourceCode05_GPIOBuzz\Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"G:\test\DSP\DSP2812S_SourceCode\SourceCode05_GPIOBuzz\Release" -d"LARGE_MODEL" -ml -v28
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v28
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v28
+
+["Linker" Settings: "Debug"]
+Options=-q -c -m".\Debug\gpio.map" -o".\Debug\gpio.out" -x
+
+["Linker" Settings: "Release"]
+Options=-q -c -o".\Release\gpio.out" -x
+
+["DSP28_Adc.c" Settings: "Debug"]
+LinkOrder=1
+
+["DSP28_CpuTimers.c" Settings: "Debug"]
+LinkOrder=2
+
+["DSP28_DefaultIsr.c" Settings: "Debug"]
+LinkOrder=3
+
+["DSP28_ECan.c" Settings: "Debug"]
+LinkOrder=4
+
+["DSP28_Ev.c" Settings: "Debug"]
+LinkOrder=5
+
+["DSP28_GlobalVariableDefs.c" Settings: "Debug"]
+LinkOrder=6
+
+["DSP28_Gpio.c" Settings: "Debug"]
+LinkOrder=7
+
+["DSP28_InitPeripherals.c" Settings: "Debug"]
+LinkOrder=8
+
+["DSP28_Mcbsp.c" Settings: "Debug"]
+LinkOrder=9
+
+["DSP28_PieCtrl.c" Settings: "Debug"]
+LinkOrder=10
+
+["DSP28_PieVect.c" Settings: "Debug"]
+LinkOrder=11
+
+["DSP28_Sci.c" Settings: "Debug"]
+LinkOrder=12
+
+["DSP28_Spi.c" Settings: "Debug"]
+LinkOrder=13
+
+["DSP28_SysCtrl.c" Settings: "Debug"]
+LinkOrder=14
+
+["DSP28_Xintf.c" Settings: "Debug"]
+LinkOrder=15
+
+["DSP28_XIntrupt.c" Settings: "Debug"]
+LinkOrder=16
+

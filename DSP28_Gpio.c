@@ -1,21 +1,46 @@
+//
+//      TMDX ALPHA RELEASE
+//      Intended for product evaluation purposes
+//
+//###########################################################################
+//
+// FILE:	DSP28_Gpio.c
+//
+// TITLE:	DSP28 General Purpose I/O Initialization & Support Functions.
+//
+//###########################################################################
+//
+//  Ver | dd mmm yyyy | Who  | Description of changes
+// =====|=============|======|===============================================
+//  0.55| 06 May 2002 | L.H. | EzDSP Alpha Release
+//  0.56| 20 May 2002 | L.H. | No change
+//  0.57| 27 May 2002 | L.H. | No change
+//###########################################################################
 
 #include "DSP28_Device.h"
 
+	
+//---------------------------------------------------------------------------
+// InitGpio: 
+//---------------------------------------------------------------------------
+// This function initializes the Gpio to a known state.
+//
 void InitGpio(void)
 {
-// Set GPIO F port pins,bit0 as ouput,bit1 as input,bit2 as output, bit3 as ouput
-// Input Qualifier =0, none
+
+
      EALLOW;
-  	 GpioMuxRegs.GPFMUX.bit.SPISIMOA_GPIOF0 = 0;
-  	 GpioMuxRegs.GPFMUX.bit.SPISOMIA_GPIOF1 = 0;
-  	 GpioMuxRegs.GPFMUX.bit.SPICLKA_GPIOF2  = 0;
-  	 GpioMuxRegs.GPFMUX.bit.SPISTEA_GPIOF3 = 0;
-   	 GpioMuxRegs.GPDMUX.bit.T3CTRIP_PDPB_GPIOD5 = 0;//·äÃùÆ÷¿ØÖÆ¹Ü½Å£¬D5½Å 	 
-  	 GpioMuxRegs.GPFDIR.bit.GPIOF0 = 1;
-  	 GpioMuxRegs.GPFDIR.bit.GPIOF1 = 0;
-  	 GpioMuxRegs.GPFDIR.bit.GPIOF2 = 1;
-  	 GpioMuxRegs.GPFDIR.bit.GPIOF3 = 1;
+
+  	 
+  	 GpioMuxRegs.GPDMUX.bit.T3CTRIP_PDPB_GPIOD5 = 0;//·äÃùÆ÷¿ØÖÆ¹Ü½Å£¬D5½Å
+
+  	 
   	 GpioMuxRegs.GPDDIR.bit.GPIOD5 = 1; //D5½ÅÅäÖÃÎªÊä³ö
+  	 
      EDIS;
+
 }	
 	
+//===========================================================================
+// No more.
+//===========================================================================

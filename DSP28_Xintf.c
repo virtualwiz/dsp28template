@@ -1,3 +1,21 @@
+//
+//      TMDX ALPHA RELEASE
+//      Intended for product evaluation purposes
+//
+//###########################################################################
+//
+// FILE:	DSP28_Xintf.c
+//
+// TITLE:	DSP28 Device External Interface Init & Support Functions.
+//
+//###########################################################################
+//
+//  Ver | dd mmm yyyy | Who  | Description of changes
+// =====|=============|======|===============================================
+//  0.55| 06 May 2002 | L.H. | EzDSP Alpha Release
+//  0.56| 20 May 2002 | L.H. | No change
+//  0.57| 27 May 2002 | L.H. | No change
+//###########################################################################
 
 #include "DSP28_Device.h"
 
@@ -6,11 +24,10 @@
 //---------------------------------------------------------------------------
 // This function initializes the External Interface to a known state.
 //
-
 void InitXintf(void)
 {
 
-
+	#if  F2812
     // Example of chaning the timing of XINTF Zones.  
     // Note acutal values should be based on the hardware 
     // attached to the zone - timings presented here are 
@@ -22,20 +39,6 @@ void InitXintf(void)
     XintfRegs.XINTCNF2.bit.CLKOFF = 1;   // DISABLE XCLKOUT
 	XintfRegs.XINTCNF2.bit.WRBUFF = 0;   // NO WRITE BUFFER
 	XintfRegs.XINTCNF2.bit.CLKMODE = 1;  // XCLKOUT = XTIMCLK/4
-	// Zone 0
-	// Ignore XREADY for Zone 1 accesses
-	// Change read access lead/active/trail timing
-	XintfRegs.XTIMING0.bit.USEREADY = 0;
-	XintfRegs.XTIMING0.bit.XSIZE = 3;		// ALWAYS WRITE TO 11BIT
-	XintfRegs.XTIMING0.bit.XWRACTIVE = 3;
-	XintfRegs.XTIMING0.bit.XWRTRAIL=7;
-	XintfRegs.XTIMING0.bit.XWRLEAD=3;
-	XintfRegs.XTIMING0.bit.XRDLEAD = 3;
-	XintfRegs.XTIMING0.bit.XRDACTIVE =7;
-	XintfRegs.XTIMING0.bit.XRDTRAIL = 3;
-	// Double lead/active/trial timing for Zone 1
-	XintfRegs.XTIMING0.bit.X2TIMING=1;
-
 	// Zone 1
 	// Ignore XREADY for Zone 1 accesses
 	// Change read access lead/active/trail timing
@@ -84,7 +87,7 @@ void InitXintf(void)
 	// Double lead/active/trial timing for Zone 2
 	XintfRegs.XTIMING6.bit.X2TIMING=0;
 	
-
+	#endif
 }	
 	
 //===========================================================================

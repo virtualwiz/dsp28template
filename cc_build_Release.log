@@ -1,0 +1,40 @@
+-----------------------------  gpio.pjt - Release  -----------------------------
+[DSP28_Adc.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Adc.c"
+
+[DSP28_CpuTimers.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_CpuTimers.c"
+
+[DSP28_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_DefaultIsr.c"
+
+[DSP28_ECan.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_ECan.c"
+
+[DSP28_Ev.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Ev.c"
+
+[DSP28_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_GlobalVariableDefs.c"
+
+[DSP28_Gpio.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Gpio.c"
+
+[DSP28_InitPeripherals.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_InitPeripherals.c"
+
+[DSP28_Mcbsp.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Mcbsp.c"
+
+[DSP28_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_PieCtrl.c"
+
+[DSP28_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_PieVect.c"
+
+[DSP28_Sci.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Sci.c"
+
+[DSP28_Spi.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Spi.c"
+
+[DSP28_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_SysCtrl.c"
+
+[DSP28_Xintf.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Xintf.c"
+
+[DSP28_XIntrupt.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_XIntrupt.c"
+
+[ExamGpiod5.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -o3 -fr"D:/DSP28_SourceCode/SourceCode06_GPIOBuzz/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "ExamGpiod5.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Release.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

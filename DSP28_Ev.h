@@ -1,3 +1,21 @@
+//
+//      TMDX ALPHA RELEASE
+//      Intended for product evaluation purposes
+//
+//###########################################################################
+//
+// FILE:	DSP28_Ev.h
+//
+// TITLE:	DSP28 Device Event Manager Register Definitions.
+//
+//###########################################################################
+//
+//  Ver | dd mmm yyyy | Who  | Description of changes
+// =====|=============|======|===============================================
+//  0.55| 06 May 2002 | L.H. | EzDSP Alpha Release
+//  0.56| 17 May 2002 | L.H. | Removed extra reserved word in EVA EVB reg file
+//  0.57| 27 May 2002 | L.H. | No change
+//###########################################################################
 
 #ifndef DSP28_EV_H
 #define DSP28_EV_H

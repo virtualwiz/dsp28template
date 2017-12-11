@@ -1,3 +1,21 @@
+//
+//      TMDX ALPHA RELEASE
+//      Intended for product evaluation purposes
+//
+//###########################################################################
+//
+// FILE:	DSP28_CpuTimers.c
+//
+// TITLE:	DSP28 CPU 32-bit Timers Initialization & Support Functions.
+//
+//###########################################################################
+//
+//  Ver | dd mmm yyyy | Who  | Description of changes
+// =====|=============|======|===============================================
+//  0.55| 06 May 2002 | L.H. | EzDSP Alpha Release
+//  0.56| 20 May 2002 | L.H. | No change
+//  0.57| 27 May 2002 | L.H. | No change
+//###########################################################################
 
 #include "DSP28_Device.h"
 
@@ -10,7 +28,6 @@ struct CPUTIMER_VARS CpuTimer2;
 //---------------------------------------------------------------------------
 // This function initializes all three CPU timers to a known state.
 //
-
 void InitCpuTimers(void)
 {
 	// Initialize address pointers to respective timer registers:
@@ -51,7 +68,6 @@ void InitCpuTimers(void)
 // and the period in "uSeconds". The timer is held in the stopped state
 // after configuration.
 //
-
 void ConfigCpuTimer(struct CPUTIMER_VARS *Timer, float Freq, float Period)
 {
 	Uint32 	temp;

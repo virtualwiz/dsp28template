@@ -1,3 +1,21 @@
+//
+//      TMDX ALPHA RELEASE
+//      Intended for product evaluation purposes
+//
+//###########################################################################
+//
+// FILE:	DSP28_XIntrupt.h
+//
+// TITLE:	DSP28 Device External Interrupt Register Definitions.
+//
+//###########################################################################
+//
+//  Ver | dd mmm yyyy | Who  | Description of changes
+// =====|=============|======|===============================================
+//  0.55| 06 May 2002 | L.H. | EzDSP Alpha Release
+//  0.56| 20 May 2002 | L.H. | No change
+//  0.57| 27 May 2002 | L.H. | No change
+//###########################################################################
 
 #ifndef DSP28_XINTRUPT_H
 #define DSP28_XINTRUPT_H

@@ -1,3 +1,23 @@
+//
+//      TMDX ALPHA RELEASE
+//      Intended for product evaluation purposes
+//
+//###########################################################################
+//
+// FILE:	DSP28_SysCtrl.c
+//
+// TITLE:	DSP28 Device System Control Initialization & Support Functions.
+//
+//###########################################################################
+//
+//  Ver | dd mmm yyyy | Who  | Description of changes
+// =====|=============|======|===============================================
+//  0.55| 06 May 2002 | L.H. | EzDSP Alpha Release
+//  0.56| 20 May 2002 | L.H. | No change
+//  0.57| 24 May 2002 | L.H. | Added initialization of RAM control registers
+//      |             |      | for TMX samples.
+//###########################################################################
+
 
 #include "DSP28_Device.h"
 
@@ -6,7 +26,6 @@
 //---------------------------------------------------------------------------
 // This function initializes the System Control registers to a known state.
 //
-
 void InitSysCtrl(void)
 {
    Uint16 i;
@@ -25,7 +44,7 @@ void InitSysCtrl(void)
    SysCtrlRegs.WDCR= 0x0068;
 
 // Initalize PLL
-   SysCtrlRegs.PLLCR = 0xA;		
+   SysCtrlRegs.PLLCR = 0x06;
    // Wait for PLL to lock
    for(i= 0; i< 5000; i++){}
        
@@ -36,7 +55,7 @@ void InitSysCtrl(void)
    SysCtrlRegs.PCLKCR.bit.EVAENCLK=1;
    SysCtrlRegs.PCLKCR.bit.EVBENCLK=1;
    SysCtrlRegs.PCLKCR.bit.SCIENCLKA=1;
-   SysCtrlRegs.PCLKCR.bit.SCIENCLKB=1;
+// SysCtrlRegs.PCLKCR.bit.SCIENCLKB=1;
 				
    EDIS;
 	
@@ -47,7 +66,7 @@ void InitSysCtrl(void)
 //---------------------------------------------------------------------------
 // This function resets the watchdog timer.
 // Enable this function for using KickDog in the application 
-
+/*
 void KickDog(void)
 {
     EALLOW;
@@ -55,7 +74,7 @@ void KickDog(void)
     SysCtrlRegs.WDKEY = 0x00AA;
     EDIS;
 }
-	
+*/	
 	
 //===========================================================================
 // No more.

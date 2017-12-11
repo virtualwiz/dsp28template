@@ -1,3 +1,21 @@
+//
+//      TMDX ALPHA RELEASE
+//      Intended for product evaluation purposes
+//
+//###########################################################################
+//
+// FILE:	DSP28_PieVect.h
+//
+// TITLE:	DSP28 Devices PIE Vector Table Definitions.
+//
+//###########################################################################
+//
+//  Ver | dd mmm yyyy | Who  | Description of changes
+// =====|=============|======|===============================================
+//  0.55| 06 May 2002 | L.H. | EzDSP Alpha Release
+//  0.56| 20 May 2002 | L.H. | No change
+//  0.57| 27 May 2002 | L.H. | No change
+//###########################################################################
 
 #ifndef DSP28_PIE_VECT_H
 #define DSP28_PIE_VECT_H

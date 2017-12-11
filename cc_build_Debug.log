@@ -1,0 +1,40 @@
+------------------------------  gpio.pjt - Debug  ------------------------------
+[DSP28_Adc.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Adc.c"
+
+[DSP28_CpuTimers.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_CpuTimers.c"
+
+[DSP28_DefaultIsr.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_DefaultIsr.c"
+
+[DSP28_ECan.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_ECan.c"
+
+[DSP28_Ev.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Ev.c"
+
+[DSP28_GlobalVariableDefs.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_GlobalVariableDefs.c"
+
+[DSP28_Gpio.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Gpio.c"
+
+[DSP28_InitPeripherals.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_InitPeripherals.c"
+
+[DSP28_Mcbsp.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Mcbsp.c"
+
+[DSP28_PieCtrl.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_PieCtrl.c"
+
+[DSP28_PieVect.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_PieVect.c"
+
+[DSP28_Sci.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Sci.c"
+
+[DSP28_Spi.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Spi.c"
+
+[DSP28_SysCtrl.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_SysCtrl.c"
+
+[DSP28_Xintf.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Xintf.c"
+
+[DSP28_XIntrupt.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_XIntrupt.c"
+
+[ExamGpiod5.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -q -fr"G:/test/DSP/DSP2812S_SourceCode/SourceCode05_GPIOBuzz/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "ExamGpiod5.c"
+
+[Linking...] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.
